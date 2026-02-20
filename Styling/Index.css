@@ -8,6 +8,9 @@ html {
     background: rgb(0, 0, 0);
 }
 
+#h2pro {
+  text-decoration: none;
+}
 
 #pro {
   text-decoration:underline
@@ -62,3 +65,4 @@ div > p {
 .contact-me > h3 {
   margin-bottom: 30px;
 }
+
