@@ -1,10 +1,64 @@
 /* CSS for index.html */
+body {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+}
+
 html {
     background: rgb(0, 0, 0);
 }
 
-h1 {
-  text-transform: uppercase;
-  color: white;
+
+#pro {
+  text-decoration:underline
 }
 
+#aline {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 20%;
+  margin: 40px auto;
+}
+
+.middle-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+div > h2 {
+  text-decoration: underline;
+  color: aqua;
+}
+
+.parent > div {
+  margin: 20px;
+}
+
+div > p {
+  font-size: 20px;
+}
+
+.lead {
+  font-size: 30px;
+}
+
+#reach-out {
+  color:blueviolet;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.contact-me > h3 {
+  margin-bottom: 30px;
+}
