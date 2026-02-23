@@ -86,6 +86,11 @@ div > p {
   background-color: #4a2fd1;
 }
 
+.education {
+  display: flex;
+  justify-content: space-around;
+}
+
 @media (max-width: 768px) {
 
   /* Skills stack vertically */
@@ -120,5 +125,10 @@ div > p {
   .contact-me .btn-info {
     width: 100%;
     max-width: 300px;
+  }
+  
+  .education {
+    justify-content: center;
+    display: block;
   }
 }
